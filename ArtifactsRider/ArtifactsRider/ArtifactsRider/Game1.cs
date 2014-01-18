@@ -22,11 +22,17 @@ namespace ArtifactsRider
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            IsMouseVisible = true;
         }
 
         protected override void Initialize()
         {
             GeneralManager.Initalize(Content, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, this);
+
+
+            LoadTextures();
+            LoadFonts();
 
             GeneralManager.CurrentScreen = new MainMenuScreen(this);
 
@@ -36,27 +42,40 @@ namespace ArtifactsRider
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
         }
+
 
         protected override void UnloadContent()
         {
         }
 
+        private static void LoadTextures()
+        {
+            //GeneralManager.LoadTex("texname");
+            GeneralManager.LoadTex("Textures/TestTex");
+        }
+
+        private static void LoadFonts()
+        {
+            GeneralManager.LoadFont("Fonts/SteamWreck");
+        }
+
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                this.Exit();
 
+            GeneralManager.Update();
+            GeneralManager.CurrentScreen.HandleInput();
+            GeneralManager.CurrentScreen.Update(gameTime);
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
+            GeneralManager.CurrentScreen.BeginDraw(spriteBatch, gameTime);
+            GeneralManager.CurrentScreen.Draw(spriteBatch, gameTime);
+            GeneralManager.CurrentScreen.EndDraw(spriteBatch, gameTime);
 
             base.Draw(gameTime);
         }

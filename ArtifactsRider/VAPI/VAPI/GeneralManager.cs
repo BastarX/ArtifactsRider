@@ -62,7 +62,7 @@ namespace VAPI
         public static void LoadFont(string Name)
         {
             //Fonts.Add(Name, Content.Load<SpriteFont>(Name));
-            var fontFilePath = Path.Combine(Content.RootDirectory, Name + ".FNT");
+            var fontFilePath = Path.Combine(Content.RootDirectory, Name + ".fnt");
             var fontFile = FontLoader.Load(fontFilePath);
             var fontTexture = Content.Load<Texture2D>(Name + "_0");
 
