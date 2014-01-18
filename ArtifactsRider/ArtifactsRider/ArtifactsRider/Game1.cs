@@ -8,6 +8,8 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using VAPI;
+using ArtifactsRider.Scenes;
 
 namespace ArtifactsRider
 {
@@ -24,6 +26,9 @@ namespace ArtifactsRider
 
         protected override void Initialize()
         {
+            GeneralManager.Initalize(Content, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, this);
+
+            GeneralManager.CurrentScreen = new MainMenuScreen(this);
 
             base.Initialize();
         }

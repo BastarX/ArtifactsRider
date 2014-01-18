@@ -1,0 +1,12 @@
+e:\programowanie\xna\SteamAge\Krypton\bin\x86\Debug\Krypton.dll
+e:\programowanie\xna\SteamAge\Krypton\bin\x86\Debug\Krypton.pdb
+e:\programowanie\xna\SteamAge\Krypton\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+e:\programowanie\xna\SteamAge\Krypton\obj\x86\Debug\Krypton.dll
+e:\programowanie\xna\SteamAge\Krypton\obj\x86\Debug\Krypton.pdb
+e:\programowanie\xna\SteamAge\Krypton\obj\x86\Debug\Krypton.csprojResolveAssemblyReference.cache
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\Krypton\bin\x86\Debug\Krypton.dll
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\Krypton\bin\x86\Debug\Krypton.pdb
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\Krypton\obj\x86\Debug\Krypton.csprojResolveAssemblyReference.cache
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\Krypton\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\Krypton\obj\x86\Debug\Krypton.dll
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\Krypton\obj\x86\Debug\Krypton.pdb
