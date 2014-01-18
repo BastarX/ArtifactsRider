@@ -19,7 +19,7 @@ namespace ArtifactsRider.Scenes
         public WorldScreen(Game Game)
             : base(Game, GeneralManager.ScreenX, GeneralManager.ScreenY)
         {
-            this.AddGUI(new Button(new Rectangle(100, 100, 100, 100), "", GeneralManager.Textures["Textures/TestTex"], Color.Gray, Color.White, "Fonts/SteamWreck"));
+            this.AddGUI(new Button(new Rectangle(200, 100, 100, 100), "", GeneralManager.Textures["Textures/TestTex"], Color.Gray, Color.White, "Fonts/SteamWreck"));
         }
    
     }
