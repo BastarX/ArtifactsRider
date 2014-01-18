@@ -1,0 +1,6 @@
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\bin\x86\Debug\ArtifactsRider.exe
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\bin\x86\Debug\ArtifactsRider.pdb
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\ArtifactsRider.csprojResolveAssemblyReference.cache
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\ArtifactsRider.exe
+E:\programowanie\xna\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\ArtifactsRider.pdb
