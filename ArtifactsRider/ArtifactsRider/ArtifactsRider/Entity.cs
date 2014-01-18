@@ -12,7 +12,13 @@ namespace ArtifactsRider
         // TODO:
         // Implement entity
 
-        public void Update(GameTime gameTime);
-        public void Draw(SpriteBatch sb, GameTime gameTime);
+        public void Update(GameTime gameTime)
+        {
+
+        }
+        public void Draw(SpriteBatch sb, GameTime gameTime)
+        {
+
+        }
     }
 }

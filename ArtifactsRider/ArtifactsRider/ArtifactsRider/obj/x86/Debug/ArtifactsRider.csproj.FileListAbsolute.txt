@@ -26,3 +26,6 @@ C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\Art
 C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\ArtifactsRider.exe
 C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\obj\x86\Debug\ArtifactsRider.pdb
+C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\bin\x86\Debug\Newtonsoft.Json.pdb
+C:\Users\Kebab\Documents\GitHub\ArtifactsRider\ArtifactsRider\ArtifactsRider\ArtifactsRider\bin\x86\Debug\Newtonsoft.Json.xml
